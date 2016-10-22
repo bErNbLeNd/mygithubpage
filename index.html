@@ -1,59 +1,360 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<head>
+    <title>Hungry Vegan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Radley:400,400italic|Raleway:400,700|Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+ 
+<!--
+You must have at least the following divs: wrapper, header, content, sidebar, footer
 
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="print.css" media="print">
+You must include at least the following content markup:
+-2 Paragraphs
+-1 h1 heading
+-2 h2 headings
+-1 ordered or unordered list
+**4 images, floated left or right so the text wraps around it
+- 5 pieces of content wrapped in spans
+**10 links in your sidebar. They can link to anything (hackeryou.com, google.com etc..)
+**1 unordered list of links to your favorite CSS websites in the sidebar
 
-    <title>bErNbLeNd</title>
-    <script src="main.js"></script>
-  </head>
+You must demonstrate at least the following techniques learned so far
+-Use an external file called style.css to write your CSS in
+-1 background image
+-text-transform: uppercase, capitalize, lowercase
+-italic text
+-Bolded font weight
+-Text shadow
+-Appropriate margins and padding so content isn't squished
+-Style your 5+ spans in a way that they stand out
+-2 custom web fonts
+***box-shadow
+-line height
+-letter spacing
+-2 borders of different style, color and width
+-1 image that is linked to another website that opens in a new window
+-Sidebar links have a clearly defined hoverstate
+-->
+
+</head>
+    <body>
+    	<div class="wrapper">
+			<div class="nav">
+				<a href="#news">News</a>
+    			<a href="#about">About</a>
+    			<a href="#menu">Menu</a>
+    			<a href="#juice">Juice Cleanse</a>
+    			<a href="#hoursLocation">Hours &amp; Location</a>
+    			<a href="#contact">Contact</a>
+    		</div>
 
 
+    		<div class="header">
+        		<h1>Hungry Vegan</h1>
+        		<p>
+        		<h2>Organic &amp; Vegan Foods</h2>
+        		</p> 
+        	</div>
 
-<header class='text-center'>
-	<div class='container'>
-		<h1>RANDOM QUOTE MACHINE</h1>
-		<h4>bernblend</h4>
-	</div>
-</header>
 
-<!-- MAIN -->
+        	<div class="content">
+        		<div class="news" id="news">
+        			<h2>News</h2>
+					<h3>Saturday, June 1st, 2014</h3>
+					<p>
+					Organic wheatgrass shots are now available! Please see our <a href="#menu">Menu</a> to see our selection.
+					</p>
+					<p>
+					A heartfelt thank you so for the incredible Grand Opening day. We almost couldn't keep up with you!
+					</p>
+					<h3>Saturday, May 24th, 2014</h3>
+					<p>
+					Have you heard about our Grand Opening this Saturday? <span class="serifItalic">SATURDAY MAY 24TH 9-5!</span> There will be plenty of samples from our catering menu and our famous desserts! We will have samples of our signature juices for everyone to try and lots of info and flyers about our full catering menu! See our <a href="#hoursLocation">Location and Hours</a>. Hope to see you there!
+					</p>
+				</div>
 
-<main role='main'>
 
-	<div class='container'>
-		
-		<!-- Quote Row -->
-		
-		<div class='row'>
-			<div class='quote'>
-				<div class='inside'></div>
+				<div class="inBetween inBetween1">
+					<h2>Chatham-Kent's only organic, vegan restaurant</h2>
+					<p>
+					We are proud to serve the Chatham-Kent region offering natural and healthy meals
+					</p>
+				</div>
+
+
+        		<div class="about" id="about">
+					<h2>About</h2>
+					<p>
+					<span class="openingText">At Hungry Vegan we strive to bring your family fresh, local, hearty plant based meals.</span>
+					</p>
+	 				
+	 				<p>
+	 				Grab and go affordable healthy meals. By working with <a href="http://riverbell.ca" target="new">River Bell Market Gardens</a> we are bringing produce from the ground to your mouth in less than 30 km. We promote simple healthy eating rooted in a local economy, a local food system, and a vibrant and resilient community.
+					</p>
+	 
+					<h3>We Offer</h3>
+					<p>
+					<img src="images/about_240x240.jpg" alt="about" "About Hungry Vegan">
+						<ul>
+							<li>Daily meal planning and readily available grab and go items for a quick healthy family meal. Including gluten free desserts and baked goods.</li>
+							<li>Fresh juices and juice cleanse programs to help reset your digestion and clear out any unwanted guests that could be preventing proper absorption of nutrients in your system.</li>
+							<li>Adult and childrens cooking classes and demonstrations to help balance the responsibility of food preparation in the family.</li>
+						</ul>
+					</p>
+					<p>
+					Organic Vegetable box program depot for <a href="http://riverbell.ca" target="new">River Bell Market Gardens</a> with fresh produce delivered once weekly for your convenience. Local organic produce from <a href="http://riverbell.ca" target="new">River Bell</a> with recipes from us at Hungry Vegan to help you use your veggies to their best potential.
+					</p>
+	 				
+					<h3>Mission</h3>
+					<p>
+						<ul>
+							<li>To bring healthy affordable meals to busy people.</li>
+							<li>Discounts available for all families on maternity or paternity leave.</li>
+							<li>Discounts also available for senior customers.</li>
+							<li>Programs and donations available please inquire with Nadia in the store.</li>
+						</ul>
+					</p>
+ 				</div>
+			
+				
+				<div class="inBetween inBetween2">
+					<h2>Grow local, Eat local</h2>
+					<p>
+					Delicious, healthy, and convenient meals with the freshest ingredients sourced right in the heart of Chatham-Kent
+					</p>
+				</div>
+
+			
+				<div class="menu" id="menu">
+					<h2>Menu</h2>
+					<p>
+
+					<div class="menu1 menuLeft">
+						<img src="images/greengiant.jpg" alt="green giant" title="Green Giant">
+						<h3>Green Giant</h3>
+						<p>
+						<span class="serifItalic">Ingredients</span>  Kale*, Spinach*, Parsley*, Lemon, Apple*, Cucumber*
+						</p>
+						<p>
+						<span class="serifItalic">Nutritional Facts</span>  365 Calories, 16.0g Protein, 43% Daily Calcium Requirement, 40% Daily Iron Requirements, Very high in Magnesium, Phosphorus, Riboflavin, Thiamin, Vitamin A, Vitamin B6, Vitamin C
+						</p>
+					</div>
+						
+					<div class="menu2 menuRight">	
+						<img src="images/betabuster.jpg" alt="beta buster" title="Beta Buster">
+						<h3>Beta Buster</h3>
+						<p>
+						<span class="serifItalic">Ingredients</span>  Carrot*, Apple*, Sweet Potato*, Lemon, Ginger*
+						</p>
+						<p>
+						<span class="serifItalic">Nutritional Facts</span>  390 Calories, 9.3g Protein, 38% Daily Value of Iron, Very High in Manganese, Vitamin A, Vitamin B6, Vitamin C, Digestion Aide.
+						</p>
+					</div>
+
+					<div class="menu3 menuLeft">
+						<img src="images/berrybeet.jpg" alt="berry beet" title="Berry Beet">
+						<h3>Berry Beet</h3>
+						<p>
+						<span class="serifItalic">Ingredients</span>  Beets*, Berries*, Pomegranate, Pineapple, Swiss Chard*, Lemon
+						</p>
+						<p> 
+						<span class="serifItalic">Nutritional Facts</span> 420 Calories, 11.0g Protein, Very High In Vitamin C, Vitamin B6, Antioxidants.
+						</p>
+					</div>
+					
+					<div class="menu4 menuRight">
+						<img src="images/heartynutmilk.jpg" alt="hearty nut milk" title="Hearty Nut Milk">
+						<h3>Hearty Nut Milk</h3>	
+						<p>
+						<span class="serifItalic">Ingredients</span>  Almonds, Hemp Hearts, reverse osmosis purified water.
+						</p>
+						<p> 
+						<span class="serifItalic">Nutritional Facts</span>  520 Calories, 20.0g Protein, 480mg Calcium, 2.5g Omega-3 Fatty Acid, 8g Omega 6 Fatty Acid, Very High in Magnesium, Phosphorus, Zinc and Manganese.
+						</p>
+					</div>
+					
+					<div class="menu5 menuLeft">
+						<img src="images/snakeoil.jpg" alt="snake oil" title"Snake Oil">
+						<h3>Snake Oil</h3>
+						<p>
+						<span class="sansSerif">Wheatgrass Elixir Shot (2oz)</span>
+						</p>
+						<p>
+						<span class="serifItalic">Ingredients</span>  Wheat Grass, Kale, Ginger, Lemon
+						</p>
+					</div>
+
+					<div class="menu6 menuRight">
+						<img src="images/themojito.jpg" alt="mojito" title="The Mojito">
+						<h3>The Mojito</h3> 
+						<p>
+						<span class="sansSerif">Wheatgrass Elixir Shot (2oz)</span>
+						</p>
+						<p>
+						<span class="serifItalic">Ingredients</span>  Wheatgrass, Blueberry, Lemon, Mint
+						</p>
+					</div> 
+				</div>
+
+
+				<div class="inBetween inBetween3">
+					<h2>100% Vegan Goodness</h2>
+					<p>
+					We promise you you won't believe it's even vegan!
+					</p>
+				</div>
+
+
+				<div class="juice" id="juice">
+		 			<h2>Our Juice Cleanses</h2>
+		 			<p>
+			 		<span class="openingText">Getting the daily allowances of fruits and vegetables can some times be difficult.</span> The best way to fulfill those recommended daily allowances is through juicing. Incorporating Hungry Vegan Juices into your daily diet is the best way to get all the nutrients you need in aday.
+		 			</p>
+
+					<h3>The Benefits Of Juicing</h3>
+					<p>		
+						<ul>
+							<li><span class="serifItalic">Extremely Hydrating</span> our cells consist mainly of water, which is essential to proper cell function, hence they daily recommendations of 8 glasses of water a day. Juicing supplies the water you need to replenish lost fluids.</li>
+								 
+							<li><span class="serifItalic">Promotes Alkalinity</span> vital for proper immune function. Diseases, infections, inflammation, pain, cancer all thrive in an acidic environment.</li>
+							 
+							<li><span class="serifItalic">Cleansing/Detoxifying</span> helps the body remove toxins. Detoxifies the system and cleanses the digestive tract/colon.</li>
+							 
+							<li><span class="serifItalic">Promotes Clarity</span> clears the mind and balances your mood.</li>
+							 
+							<li><span class="serifItalic">Natural Weight</span> Loss burn excess fat, fat stores harmful toxins.</li>
+							 
+							<li><span class="serifItalic">Blast of Antioxidants</span> counteracts the free radicals that can cause cellular damage, aging and susceptibility to cancers.</li>
+							 
+							<li><span class="serifItalic">Natural Energy</span> no crashing or burning, consistent energy.</li>
+						</ul>
+					</p>
+					<p>
+					Our juices are made with low power juicers that reach a speed of no more than 80 rpms. This means you are getting the most nutrient and enzyme rich juice we can offer. Low power juicing allows for our juices to be viable for 48 hours. You can pick up your juices for two days and store them in your own fridge until you'd like to consume them. 
+					</p>
+		 			
+		 			<p>
+		 			All of our cleanses are offered for a 1 day, 2 day, 3 day, or 5 day duration.
+			 		6 - 13 oz juices daily, designed to be consumed every 2-3 hours one hour after waking and the last to be consumed 2 hours before sleeping with as much water and herbal (non caffeinated) tea as you like. The timing of the drinks is designed to prevent any serious hunger during the cleanse. Cleanses are assessed on an individual basis so please contact us by <a href="mailto:hungryvegan1@gmail.com">email</a> if you have any questions or concerns. 
+		 			</p>
+					
+					<h3>Try our juice trio today for $20!</h3>
+					<div class="juice1 juiceMenu">
+		 				<img src="images/juice1_200px.jpg" alt="juice1" title="Beginner Step 1 Energy Boost Juice">
+		 				<h3>Beginner Step 1 'Energy Boost'</h3>
+		 				<p>
+		 				This is our mildest and most popular cleanse. Recommended for the beginner juicer. The Lemon Pepper juice energizes the liver causing a release of toxins. This cleanse has enough calories to keep you sustained throughout your day.
+		 				</p>
+							
+						<h3>Ingredient List</h3>
+						<span class="ingredients">
+						 	<ul>
+						 		<li>1 Lemon Pepper</li>
+			 				 	<li>1 Beta Buster</li>
+			 				 	<li>2 Green Giant</li>
+			 			 		<li>1 Hearty Nut Milk</li>
+			 			 		<li>1 Berry Beet</li>
+			 				</ul>
+						</span>
+					</div>
+
+					<div class="juice2 juiceMenu">
+	 					<img src="images/juice2_200px.jpg" alt="juice2" title="Intermediate Step 2 Reset Juice">
+	 					<h3>Intermediate Step 2 'Reset'</h3>	 					
+	 					<p> 				
+						This is an intermediate cleanse designed for the already healthy eater. This cleanse has a decreased sugar content to help hinder the proliferation of yeast in the intestine. 
+						</p>
+						
+						<h3>Ingredient List</h3>
+						<span class="ingredients">
+							<ul> 
+								<li>1 Lemon Pepper</li>
+		 						<li>1 Beta Buster</li>
+		 						<li>3 Green Giant</li>
+		 						<li>1 Heart Nut Milk</li>
+		 					</ul>
+	 					</span>
+					</div>
+
+					<div class="juice3 juiceMenu">
+	 					<img src="images/juice3_200px.jpg" alt="juice3" title="The Veteran Step 3 Purify Juice">
+	 					<h3>The Veteran Step 3 'Purify'</h3>
+	 					<p>
+	 					We recommend this cleanse to the experienced juice cleanser. It eliminated most carbs and sugar while providing raw macronutrients in concentrated quantities. 
+	 					</p>
+						
+						<h3>Ingredient List</h3>
+	 					<span class="ingredients">
+		 					<ul>
+		 						<li>1 Lemon Pepper</li>
+		 				 		<li>4 Green Giant</li>
+		 				 		<li>1 Hearty Nut Milk</li>
+		 					</ul>
+	 					</span>
+					</div>
+	 			</div>
+	 		
+
+	 			<div class="inBetween inBetween4">
+	 				<h2>From Farm to Table</h2>
+	 				<p>
+	 				Delivering fresh, healthy meals right to your door step
+	 				</p>
+	 			</div>
+
+
+		 		<div class="hoursLocation" id="hoursLocation">
+		 			<div class="titleWrap">
+		 				<h2>Hours &amp; Location</h2>
+		 			</div>
+
+		 			<div class="map">
+		 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2945.7963829704136!2d-82.1908279!3d42.41078069999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ff85d1a50ca6d%3A0xbbfa8866c202aed7!2s55+Forest+St!5e0!3m2!1sen!2sca!4v1401644940018" width="300" height="300" frameborder="0" style="border:0"></iframe>		
+		 			</div>					
+		 			<div class="store">
+		 				<p>
+		 				Come visit us at our new store!
+		 				</p>
+		 				<p>
+		 				55 Forest Street<br>
+		 				Chatham, Ontario<br>
+		 				N7L 3Z9
+		 				</p>
+		 				<p>
+		 				<span class="serifItalic">Monday</span>&nbsp;&nbsp;7 am - 8 pm<br>
+		 				<span class="serifItalic">Tuesday</span>&nbsp;&nbsp;7 am - 8 pm<br>
+		 				<span class="serifItalic">Wednesday</span>&nbsp;&nbsp;7 am - 8 pm<br>
+		 				<span class="serifItalic">Thursday</span>&nbsp;&nbsp;7 am - 8 pm<br>
+		 				<span class="serifItalic">Friday</span>&nbsp;&nbsp;7 am -  2 pm<br>
+		 				<span class="serifItalic">Saturday</span>&nbsp;&nbsp;8 am - 12 pm<br>
+		 				<span class="serifItalic">Sunday</span>&nbsp;&nbsp;Closed
+		 				</p>
+		 			</div>
+		 		</div>
+		 	</div>
+
+			<div class="footer">
+				<div class="contact" id="contact">
+					<div class="titleWrap">
+						<h2>Contact</h2>
+					</div>
+					<div class="tel">
+						<img src="images/phone.png" alt="phone" title="Give us a ring">
+						<h3>by telephone</h3>
+						519 355 0909
+					</div>
+					<div class="email">
+						<img src="images/mail.png" alt="email" title="Send us an email">
+						<h3>by email</h3>
+						<a href="mailto:hungryvegan1@gmail.com">hungryvegan1@gmail.com</a>
+					</div>
+					<div class="facebook">
+						<a href="https://www.facebook.com/HungryVegan1/" target="new"><img src="images/facebook.png" alt="facebook" title="Check out our Facebook"></a>
+						<h3>On Facebook</h3>
+						<a href="https://www.facebook.com/HungryVegan1">facebook.com/HungryVegan1</a>
+				</div>
 			</div>
 		</div>
-		
-		
-		<!-- Button Row -->
-		
-		<div class='row'>
-			
-			<div class='col-md-6 text-center'>
-				<button type="button" class="btn btn-default quoteButton">Click Me!</button>
-			</div>
-			
-			<div class='col-md-6 text-center'>
-				<a class="btn btn-default tweet-btn" href="https://twitter.com/intent/tweet?text=data.quoteText"  target="_blank"><img src='http://www.madaboutthehouse.com/wp-content/uploads/2014/04/twitter-light-grey.png'></a>
-			</div>
-			
-		</div> <!-- button row end -->
-		
-	</div> <!-- container-flex end -->
-	
-</main>
 
-
-</body> 
+    </body>
 </html>
