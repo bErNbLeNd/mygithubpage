@@ -209,7 +209,7 @@ h3 {
 }
 
 .inBetween4 {
-	background: url("images/location_bg.jpg") top left no-repeat fixed;
+	background: url("") top left no-repeat fixed;
 	background-size:cover;
 }
 
@@ -236,7 +236,7 @@ h3 {
 	display:block;
 	margin:8% auto;
 	border-radius:50%;
-
+ width: 50%;
 }
 
 .menuLeft {
@@ -284,6 +284,7 @@ h3 {
 
 .juiceMenu img {
 	border-radius:50%;
+ width: 60%;
 }
 
 .juice2 {
