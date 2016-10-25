@@ -259,7 +259,7 @@ h3 {
 
 .music{
 	background-color:white;
-	float:left;
+/* float:left; */
 	color:black;
 	padding:8% 25%;
 	text-align:center;
@@ -278,9 +278,9 @@ h3 {
 
 
 .musicList {
-	width:100%;
+	width:30%;
 	margin:5% 0;
-	float:left;
+/*	float:left; */
 }
 
 .musicList img {
