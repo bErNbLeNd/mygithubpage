@@ -114,6 +114,13 @@ a:hover {
 
 }
 
+.about img{
+   display:block;
+   margin:8% auto;
+   border-radius:50%;
+   width:50%;   
+}
+
 
 p {
 	text-align:left;
