@@ -96,14 +96,14 @@ a:hover {
 }
 
 
-.news { 
+.about { 
 	background-color:white;
 	padding:8% 25%;
 	text-align:center;
 
 }
 
-.news h2 {
+.about h2 {
 	display:inline-block;
  	font-family: 'Pathway Gothic One', sans-serif;
  	font-size: 30px;
@@ -123,14 +123,14 @@ li {
 	text-align:left;
 }
 
-.about { 
+.logic { 
 	background-color:white;
 	padding:8% 25%;
 	text-align:center;
 
 }
 
-.about h2 {
+.logic h2 {
 	display:inline-block;
  	font-family: 'Pathway Gothic One', sans-serif;
  	font-size: 30px;
@@ -141,7 +141,7 @@ li {
 }
 
 
-.about img {
+.logic img {
 	float:left;
 	margin-right:5%;
 	border-radius:50%;
@@ -214,7 +214,7 @@ h3 {
 	background-size:cover;
 }
 
-.menu {
+.design {
 	background-color:white;
 	float:left;
 	color:black;
@@ -223,7 +223,7 @@ h3 {
 }
 
 
-.menu h2 {
+.design h2 {
 	display:inline-block;
  	font-family: 'Pathway Gothic One', sans-serif;
  	font-size: 30px;
@@ -233,31 +233,31 @@ h3 {
  	border:5px solid black;
 }
 
-.menu img {
+.design img {
 	display:block;
 	margin:8% auto;
 	border-radius:50%;
  width: 50%;
 }
 
-.menuLeft {
+.designLeft {
 	width:45%;
 	float:left;
 	margin-right:5%;
 }
 
-.menuRight {
+.designRight {
 	width:45%;
 	float:left;
 	margin-left:5%;
 }
 
-.menu3 {
+.design3 {
 	clear:both;
 }
 
 
-.juice{
+.music{
 	background-color:white;
 	float:left;
 	color:black;
@@ -265,7 +265,7 @@ h3 {
 	text-align:center;
 }
 
-.juice h2 {
+.music h2 {
 	display:inline-block;
  	font-family: 'Pathway Gothic One', sans-serif;
  	font-size: 30px;
@@ -277,18 +277,18 @@ h3 {
 
 
 
-.juiceMenu {
+.musicList {
 	width:30%;
 	margin:5% 0;
 	float:left;
 }
 
-.juiceMenu img {
+.musicList img {
 	border-radius:50%;
  width: 60%;
 }
 
-.juice2 {
+.music2 {
 	margin:5% 5%;
 }
 
@@ -314,13 +314,13 @@ h3 {
 	padding-bottom:5%;
 }
 
-.hoursLocation {
+.links {
 	background-color:white;
 	padding:5% 25% 32% 25%;
 	text-align:center;	
 }
 
-.hoursLocation h2 {
+.links h2 {
 	display:inline-block;
 	font-family: 'Pathway Gothic One', sans-serif;
  	font-size: 30px;
