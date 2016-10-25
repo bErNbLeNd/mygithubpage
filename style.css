@@ -65,10 +65,11 @@ a:hover {
 }
 
 .header	h1 {
-	width:100%;
+	width:50%;
 	margin:0 auto;
 	padding:2% 1% 2% 2%;
- 	font-family: 'Pathway Gothic One', sans-serif;
+ 	/*font-family: 'Pathway Gothic One', sans-serif;*/
+   font-family: Courier, monospace;
  	font-size: 50px;
  	color:white;
  	text-transform:lowercase;
