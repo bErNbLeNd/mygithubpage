@@ -3,6 +3,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+
+html{
+	zoom:212%;
+}
+
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -11,6 +17,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   clear: both;
   height: 0;
   }
+  
+
+
 
 
 body {
@@ -63,7 +72,7 @@ a:hover {
 
 
 .header {
-	padding-top: 300px;
+	padding-top: 150px;
 	padding-bottom: 500px;
 }
 
