@@ -1,470 +1,188 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
-input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
-
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-
-html{
-	zoom:212%;
-}
-
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  }
-  
-
-
-
-
-body {
-	background: black url(images/background.jpg) top left no-repeat fixed;
-	background-size:cover;
- 	font-family: 'Radley', sans-serif;
- 	font-size: 16px;
-	line-height:1.5;
-}
-
-
-a {
-	color:limegreen;
-	text-decoration:none;	
-}
-
-a:hover {
-	color:limegreen;
-}
-
-
-.wrapper {
- 	width:100%;
-}
-
-
-.nav {
-	position: fixed;
-	background:rgba(0,0,0,0.7);
-	width: 100%;
-	padding:1% 20%;
-	/*font-family:'Raleway', sans-serif;*/
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	font-size:16px;
-	text-transform:lowercase;
-	letter-spacing:1px;
-	text-align:center;
-}
-
-.nav a {
-    color:white;
-    text-decoration:none;
-    padding:0 3%;
-}
-
-.nav a:hover {
-    color:limegreen;
-}
-
-
-.header {
-	padding-top: 150px;
-	padding-bottom: 500px;
-}
-
-.header	h1 {
-	width:50%;
-	margin:0 auto;
-	padding:2% 1% 2% 2%;
- 	font-family: 'Pathway Gothic One', sans-serif;
-    /*font-family: 'Radley', serif;*/
- 	font-size: 50px;
- 	color:limegreen;
- 	text-transform:lowercase;
- 	text-align:center;
- 	letter-spacing:30px;
- 	border:5px solid white;
-	text-shadow:1px 1px 0 black;
-}
-
-.header h2 {
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	font-size: 25px;
-	color:white;
-	text-transform:lowercase;
-	text-align:center;
-	letter-spacing:17px;
-	margin-top:30px;
-	padding-left:10px;
-}
-
-
-.content { 	
- 	float:center;
-}
-
-
-.about { 
-	background-color:white;
-	padding:7% 25%;
-	text-align:center;
-	padding-bottom:500px;
-
-}
-
-.about h2 {
-	display:inline-block;
- 	font-family: 'Pathway Gothic One', sans-serif;
-	/*font-family: 'Radley', serif;*/
- 	font-size: 30px;
- 	text-transform:lowercase;
- 	letter-spacing:4px;
- 	padding:0 2px 0 8px;
- 	border:5px solid black;
-	text-align:center;  
-}
-
-
-.about img{
-   display:block;
-   margin:8% auto;
-   border-radius:50%;
-   width:30%;   
-}
-
-.about h3{
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	text-transform:lowercase;
-	font-size: 20px;
-}
-
-
-p {
-	text-align:center;
-}
-
-li {
-	text-align:left;
-}
-
-.back-end { 
-	background-color:white;
-	padding:7% 25%;
-	text-align:center;
-	padding-bottom:500px;
-
-}
-
-.back-end h2 {
-	display:inline-block;
- 	font-family: 'Pathway Gothic One', sans-serif;
-	/*font-family: 'Radley', serif;*/
- 	font-size: 30px;
- 	text-transform:lowercase;
- 	letter-spacing:4px;
- 	padding:0 2px 0 8px;
- 	border:5px solid black;
-	text-align:center;  
-}
-
-
-.back-end img{
-   display:block;
-   margin:8% auto;
-   border-radius:20%;
-   width:50%;   
-}
-
-.back-end h3{
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	text-transform:lowercase;
-	font-size: 20px;
-}
-
-
-
-h3 {
-	font-family:'Raleway', sans-serif;
-	font-size:12px;
-	font-weight:700;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	padding:10px 0;
-	text-align:center;
-}
-
-
-.openingText {
-	font-family:'Radley', serif;
-	font-size:21px;
-}
-
-
-.front-end { 
-	background-color:white;
-	padding:7% 25%;
-	text-align:center;
-	padding-bottom:500px;
-
-}
-
-.front-end h2 {
-	display:inline-block;
- 	font-family: 'Pathway Gothic One', sans-serif;
-	/*font-family: 'Radley', serif;*/
- 	font-size: 30px;
- 	text-transform:lowercase;
- 	letter-spacing:4px;
- 	padding:0 2px 0 8px;
- 	border:5px solid black;
-	text-align:center;  
-}
-
-
-.front-end img{
-   display:block;
-   margin:8% auto;
-   border-radius:20%;
-   width:30%;   
-}
-
-.front-end h3{
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	text-transform:lowercase;
-	font-size: 20px;
-}
-
-
-
-
-.random { 
-	background-color:white;
-	padding:7% 25%;
-	text-align:center;
-	padding-bottom:500px;
-
-}
-
-.random h2 {
-	display:inline-block;
- 	font-family: 'Pathway Gothic One', sans-serif;
-	/*font-family: 'Radley', serif;*/
- 	font-size: 30px;
- 	text-transform:lowercase;
- 	letter-spacing:4px;
- 	padding:0 2px 0 8px;
- 	border:5px solid black;
-	text-align:center;  
-}
-
-.random p img{
-	width:20%;
-}
-
-
-.random img{
-   display:block;
-   margin:8% auto;
-   border-radius:15%;
-   width:30%;   
-}
-
-.random h3{
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	text-transform:lowercase;
-	font-size: 20px;
-}
-
-
-
-
-.footer {
- 	clear:both;
-	background-color:rgba(0,0,0,0.5);
- 	font-family:'Raleway', sans-serif;
- 	font-size:13px;
- 	color:white;
- 	padding:0% 25% 10% 25%;
-}
-
-.titleWrap {
-	padding-bottom:5%;
-}
-
-
-
-.links { 
-	background-color:white;
-	padding:7% 25%;
-	text-align:center;
-
-}
-
-.links h2 {
-	display:inline-block;
- 	font-family: 'Pathway Gothic One', sans-serif;
-	/*font-family: 'Radley', serif;*/
- 	font-size: 30px;
- 	text-transform:lowercase;
- 	letter-spacing:4px;
- 	padding:0 2px 0 8px;
- 	border:5px solid black;
-	text-align:center;  
-}
-
-
-.links img{
-   display:block;
-   margin:8% auto;
-   border-radius:50%;
-   width:15%;   
-}
-
-
-
-.links h4{
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	text-transform:lowercase;
-	font-size: 30px;
-}
-
-
-
-.links h3{
-	/*font-family: 'Radley', serif;*/
-	font-family: 'Pathway Gothic One', sans-serif;
-	text-transform:lowercase;
-	font-size: 20px;
-}
-
-.map {
-	width:45%;
-	margin-right:5%;
-	float:left;
-}
-
-.store {
-	width:45%;
-	margin-left:5%;
-	float:left;
-}
-
-.contact {
-	clear:both;
-	padding-top:10%;
-	margin-bottom:25%;
-	text-align:center;
-}
-
-.contact h2 {
-	display:inline-block;
-	font-family: 'Pathway Gothic One', sans-serif;
- 	font-size: 30px;
- 	text-transform:lowercase;
- 	letter-spacing:4px;
- 	padding:0 2px 0 8px;
- 	border:5px solid white;
-}
-
-
-.tel {
-	clear:both;
-	width:30%;
-	float:left;
-	text-align:center;
-}
-
-.email {
-	width:30%;
-	float:left;
-	margin:0 5%;
-	text-align:center;
-}
-
-.facebook {
-	width:30%;
-	float:left;
-	text-align:center;
-}
-
-
-.contact h3 {
-	border-top:1px solid white;
-	border-bottom:1px solid white;
-}
-
-
-/*font styling*/
-.serifItalic {
-	font-family: 'Radley', serif;
-	font-style:italic;
-	font-size:15px;
-}
-
-.sansSerif {
-	font-family: 'Raleway', sans-serif;
-	font-weight:400;
-	font-size:12px;
-	text-transform:uppercase;
-	letter-spacing:2px;
-}
-
-
-
-
-
-.inBetween {
-	font-family:'Raleway', sans-serif;
-	font-size:12px;
-	color:white;
-	text-align:center;
-	text-transform:uppercase;
-	letter-spacing:5px;
-	line-height:2;
-	padding:120px 25%;
-	clear:both;
-	text-shadow:1px 1px 0 black;
-
-}
-
-.inBetween h2 {
-	font-family: 'Pathway Gothic One', sans-serif;
-	font-size:36px;
-	text-transform:uppercase;
-	letter-spacing:10px;
-}
-
-.inBetween p {
-	text-align:center;
-}
-
-.inBetween1 {
-	background: url("images/about_bg.jpg") top left no-repeat fixed;
-	background-size:cover;
-}
-
-.inBetween2 {
-	background: url("images/menu_bg.jpg") top left no-repeat fixed;
-	background-size:cover;
-} 
-
-.inBetween3 {
-	background: url("images/juice_bg.jpg") top left no-repeat fixed;
-	background-size:cover;
-}
-
-.inBetween4 {
-	background: url("") top left no-repeat fixed;
-	background-size:cover;
-}
-
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>bernblend</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href='http://fonts.googleapis.com/css?family=Radley:400,400italic|Raleway:400,700|Pathway+Gothic+One'       rel='stylesheet' type='text/css'>
+   </head>
+
+<body>
+    <div class="wrapper">
+		<div class="nav">
+		    <a href="#about">about</a>
+    	    <a href="#back-end">back-end</a>
+    		<a href="#front-end">front-end</a>
+    		<a href="#random">random</a>
+    		<a href="#links">links</a>
+    		<a href="#contact">contact</a>
+    </div>
+
+
+    <div class="header">
+      <h1>bernblend</h1>
+      <p>
+      <h2>Software Engineer</h2>
+      </p> 
+    </div>
+   
+   
+    <div class="content">
+    <div class="about" id="about">
+      <h2>about</h2>
+
+      <img src="bernblendlogo.jpeg" alt="bb" title=bernblend">
+		
+		<h3><a href="https://www.instagram.com/bernblend.io">Who is bernblend?</a></h3>
+		
+    </div>
+   
+   
+	<div class="inBetween inBetween1">
+	    <h2>  The world has the habit of making room for the man whose actions show that he knows where he is going. </h2>
+		<p>
+	    Napoleon Hill
+	    </p>
+    </div>
+
+
+    <div class="content">
+    <div class="back-end" id="back-end">
+        <h2>back-end</h2>
+
+        <img src="firstcpu.jpg" alt="first cpu" title="firstcpu">
+
+		<h3><a href="https://github.com/bernblend">Java</a></h3>
+
+		<h3><a href="https://github.com/bernblend">Python</a></h3>
+
+        <h3><a href="https://github.com/bernblend">C++</a></h3>
+
+    </div>
+
+
+
+	<div class="inBetween inBetween1">
+		<h2> Let us train our minds to desire what the situation demands. </h2>
+		<p>
+		Lucius Annaeus Seneca
+		</p>
+	</div>
+   
+    
+	<div class="content">
+    <div class="front-end" id="front-end">
+      <h2>front-end</h2>
+
+        <img src="front-end.jpg" alt="bb" title=bernblend">
+	
+		<h3><a href="https://github.com/bernblend">JavaScript</a></h3>
+		
+		<h3><a href="https://github.com/bernblend">.js</a></h3>
+		
+		<h3><a href="https://github.com/bernblend">HTML5 & CSS3</a></h3>
+		
+    </div>
+
+    
+	
+
+	<div class="inBetween inBetween1">
+	    <h2> Success has many fathers but failure is an orphan. </h2>
+	 	<p>
+	 	Unknown
+	 	</p>
+	</div>
+
+	
+
+	<div class="content">
+    <div class="random" id="random">
+      <h2>random</h2>
+
+        <img src="sky.jpg" alt="bb" title=bernblend">
+	
+		<h3><a href="https://www.instagram.com/bernblend.io">bernblend goes to nasa</a></h3>
+		
+		<h3><a href="https://www.instagram.com/bernblend.io">Arduino project - Martian Regolith</a></h3>
+		
+		<h3><a href="https://www.instagram.com/bernblend.io">Linux OS</a></h3>
+		
+    </div>
+	
+	
+	
+	<div class="inBetween inBetween1">
+	    <h2> I would like to die on Mars. Just not on impact. </h2>
+	 	<p>
+	 	Elon Musk
+	 	</p>
+	</div>
+
+	
+	
+	
+	
+	<div class="content">
+    <div class="links" id="links">
+      <h2>links</h2>
+
+        <img src="bernblendlogo.jpeg" alt="bb" title=bernblend">
+        <h4>Wanna code?</h4>
+	    <p>
+		    <h3><a href="https://github.com/bernblend">github.com</a></h3>
+		    <h3><a href="https://codepen.io/bernblend/">codepen.io</a></h3>
+		</p>
+	    <h4>Some music?</h4>
+		<p>
+		    <h3><a href="https://www.turntablelab.com/">TTL</a></h3>
+		    <h3><a href="https://open.spotify.com/track/5AETQexwkW5eGxdaUCkCpO">song of the week</a></h3>
+		</p>
+        <h4>New News?</h4>
+        <p>
+		    <h3><a href="http://www.wsj.com/articles/samsung-profit-falls-on-galaxy-note-7-recall-1477526701">Galaxy Note 7 Recall Sinks Samsung Profit</a></h3>
+		    <h3><a href="http://fortune.com/2016/10/26/elon-musk-tesla-priorities/">Elon Musk Reveals His Top 3 Tesla Priorities</a></h3>
+
+        </p>
+
+
+    </div>
+	
+	
+	
+	<div class="inBetween inBetween1">
+	    <h2> Persistence is to the character of man as carbon is to steel. </h2>
+	 	<p>
+	 	Napoleon Hill
+	 	</p>
+	</div>
+
+	
+	
+	
+	<div class="footer">
+		<div class="contact" id="contact">
+		    <div class="titleWrap">
+			    <h2>Contact</h2>
+			</div>
+			<div class="tel">
+			    
+			    <h3>Instagram</h3>
+			    <a href="https://www.turntablelab.com/"></a>
+				<a href="https://www.instagram.com/bernblend.io">bernblend.io</a>
+			    </div>
+			    <div class="email">
+			    
+			    <h3>Email</h3>
+			     <a href="mailto:bern@bernblend.com">bern@bernblend.com</a>
+			    </div>
+		        <div class="facebook">
+			    
+			    <h3>Facebook</h3>
+			    <a href="https://www.facebook.com/bernblend">facebook.com/bernblend</a>
+			</div>
+		</div>
+	</div>
+
+
+   </body>
+</html>
