@@ -63,7 +63,8 @@ a:hover {
 
 
 .header {
-	padding: 400px 0;
+	padding-top: 400px;
+	padding-bottom: 500px;
 }
 
 .header	h1 {
