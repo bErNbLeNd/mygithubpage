@@ -46,11 +46,11 @@ a:hover {
 	position: fixed;
 	background:rgba(0,0,0,0.7);
 	width: 100%;
-	padding:1% 20%;
+	padding:1% 0%;
 	/*font-family:'Raleway', sans-serif;*/
 	/*font-family: 'Radley', serif;*/
 	font-family: 'Pathway Gothic One', sans-serif;
-	font-size:15px;
+	font-size:30px;
 	text-transform:lowercase;
 	letter-spacing:1px;
 	text-align:center;
